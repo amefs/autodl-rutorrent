@@ -199,8 +199,8 @@ function UploadMethod(idDlg, idParent, isPrefs)
 
 	if (thePlugins.isInstalled("_getdir"))
 	{
-		this.getdirButton1 = new theWebUI.rDirBrowser(idDlg, this.id("watchdir-folder"), this.id("getdir-button"));
-		this.getdirButton2 = new theWebUI.rDirBrowser(idDlg, this.id("rtorrent-folder"), this.id("rt-getdir-button"));
+		this.getdirButton1 = new theWebUI.rDirBrowser(this.id("watchdir-folder"), true, this.id("getdir-button"));
+		this.getdirButton2 = new theWebUI.rDirBrowser(this.id("rtorrent-folder"), true, this.id("rt-getdir-button"));
 	}
 	else
 	{
