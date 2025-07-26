@@ -87,14 +87,14 @@ function(multiSelectDlgBox, okHandler)
 	theDialogManager.make("autodl-preferences", theUILang.autodlPreferences,
 		'<div id="autodl-prefs">' +
 			'<div id="autodl-prefs-tabs">' +
-				'<ul class="tabbar">' +
-					'<li><a id="autodl-prefs-tab-general">' + theUILang.autodlGeneral + '</a></li>' +
-					'<li><a id="autodl-prefs-tab-upload">' + theUILang.autodlUploadMethod + '</a></li>' +
-					'<li><a id="autodl-prefs-tab-webui">' + theUILang.autodlWebui + '</a></li>' +
-					'<li><a id="autodl-prefs-tab-ftp">' + theUILang.autodlFtp + '</a></li>' +
-					'<li><a id="autodl-prefs-tab-irc">' + theUILang.autodlIrc + '</a></li>' +
-					'<li><a id="autodl-prefs-tab-programs">' + theUILang.autodlPrograms + '</a></li>' +
-					'<li><a id="autodl-prefs-tab-advanced">' + theUILang.autodlAdvanced + '</a></li>' +
+				'<ul class="tabbar nav nav-tabs m-0 p-0 flex-grow-0 flex-shrink-0 overflow-x-auto overflow-y-hidden flex-nowrap">' +
+					'<li class="nav-item"><a id="autodl-prefs-tab-general">' + theUILang.autodlGeneral + '</a></li>' +
+					'<li class="nav-item"><a id="autodl-prefs-tab-upload">' + theUILang.autodlUploadMethod + '</a></li>' +
+					'<li class="nav-item"><a id="autodl-prefs-tab-webui">' + theUILang.autodlWebui + '</a></li>' +
+					'<li class="nav-item"><a id="autodl-prefs-tab-ftp">' + theUILang.autodlFtp + '</a></li>' +
+					'<li class="nav-item"><a id="autodl-prefs-tab-irc">' + theUILang.autodlIrc + '</a></li>' +
+					'<li class="nav-item"><a id="autodl-prefs-tab-programs">' + theUILang.autodlPrograms + '</a></li>' +
+					'<li class="nav-item"><a id="autodl-prefs-tab-advanced">' + theUILang.autodlAdvanced + '</a></li>' +
 				'</ul>' +
 			'</div>' +
 			'<div id="autodl-prefs-contents">' +
