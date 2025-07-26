@@ -363,13 +363,13 @@ function(multiSelectDlgBox, okHandler)
 			'<div id="autodl-filters-right">' +
 				'<div id="autodl-filters-tabs">' +
 					'<ul class="tabbar nav nav-tabs m-0 p-0 flex-grow-0 flex-shrink-0 overflow-x-auto overflow-y-hidden flex-nowrap">' +
-						'<li class="nav-item"><a id="autodl-filters-tab-general">' + theUILang.autodlGeneral + '</a></li>' +
-						'<li class="nav-item"><a id="autodl-filters-tab-p2p">' + theUILang.autodlP2P + '</a></li>' +
-						'<li class="nav-item"><a id="autodl-filters-tab-tv-movie">' + theUILang.autodlTvMovies + '</a></li>' +
-						'<li class="nav-item"><a id="autodl-filters-tab-music">' + theUILang.autodlMusic + '</a></li>' +
-						'<li class="nav-item"><a id="autodl-filters-tab-advanced">' + theUILang.autodlAdvanced + '</a></li>' +
-						'<li class="nav-item"><a id="autodl-filters-tab-upload">' + theUILang.autodlUploadMethod + '</a></li>' +
-						'<li class="nav-item"><a id="autodl-filters-tab-wol">' + theUILang.autodlWol + '</a></li>' +
+						'<li class="nav-item"><a id="autodl-filters-tab-general" class="nav-link">' + theUILang.autodlGeneral + '</a></li>' +
+						'<li class="nav-item"><a id="autodl-filters-tab-p2p" class="nav-link">' + theUILang.autodlP2P + '</a></li>' +
+						'<li class="nav-item"><a id="autodl-filters-tab-tv-movie" class="nav-link">' + theUILang.autodlTvMovies + '</a></li>' +
+						'<li class="nav-item"><a id="autodl-filters-tab-music" class="nav-link">' + theUILang.autodlMusic + '</a></li>' +
+						'<li class="nav-item"><a id="autodl-filters-tab-advanced" class="nav-link">' + theUILang.autodlAdvanced + '</a></li>' +
+						'<li class="nav-item"><a id="autodl-filters-tab-upload" class="nav-link">' + theUILang.autodlUploadMethod + '</a></li>' +
+						'<li class="nav-item"><a id="autodl-filters-tab-wol" class="nav-link">' + theUILang.autodlWol + '</a></li>' +
 					'</ul>' +
 				'</div>' +
 				'<div id="autodl-filters-contents">' +

@@ -88,13 +88,13 @@ function(multiSelectDlgBox, okHandler)
 		'<div id="autodl-prefs">' +
 			'<div id="autodl-prefs-tabs">' +
 				'<ul class="tabbar nav nav-tabs m-0 p-0 flex-grow-0 flex-shrink-0 overflow-x-auto overflow-y-hidden flex-nowrap">' +
-					'<li class="nav-item"><a id="autodl-prefs-tab-general">' + theUILang.autodlGeneral + '</a></li>' +
-					'<li class="nav-item"><a id="autodl-prefs-tab-upload">' + theUILang.autodlUploadMethod + '</a></li>' +
-					'<li class="nav-item"><a id="autodl-prefs-tab-webui">' + theUILang.autodlWebui + '</a></li>' +
-					'<li class="nav-item"><a id="autodl-prefs-tab-ftp">' + theUILang.autodlFtp + '</a></li>' +
-					'<li class="nav-item"><a id="autodl-prefs-tab-irc">' + theUILang.autodlIrc + '</a></li>' +
-					'<li class="nav-item"><a id="autodl-prefs-tab-programs">' + theUILang.autodlPrograms + '</a></li>' +
-					'<li class="nav-item"><a id="autodl-prefs-tab-advanced">' + theUILang.autodlAdvanced + '</a></li>' +
+					'<li class="nav-item"><a id="autodl-prefs-tab-general" class="nav-link">' + theUILang.autodlGeneral + '</a></li>' +
+					'<li class="nav-item"><a id="autodl-prefs-tab-upload" class="nav-link">' + theUILang.autodlUploadMethod + '</a></li>' +
+					'<li class="nav-item"><a id="autodl-prefs-tab-webui" class="nav-link">' + theUILang.autodlWebui + '</a></li>' +
+					'<li class="nav-item"><a id="autodl-prefs-tab-ftp" class="nav-link">' + theUILang.autodlFtp + '</a></li>' +
+					'<li class="nav-item"><a id="autodl-prefs-tab-irc" class="nav-link">' + theUILang.autodlIrc + '</a></li>' +
+					'<li class="nav-item"><a id="autodl-prefs-tab-programs" class="nav-link">' + theUILang.autodlPrograms + '</a></li>' +
+					'<li class="nav-item"><a id="autodl-prefs-tab-advanced" class="nav-link">' + theUILang.autodlAdvanced + '</a></li>' +
 				'</ul>' +
 			'</div>' +
 			'<div id="autodl-prefs-contents">' +
